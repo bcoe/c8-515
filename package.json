@@ -1,0 +1,14 @@
+{
+  "name": "c8-515",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 --reporter=text --reporter=html node cov.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "c8": "^9.1.0"
+  }
+}
